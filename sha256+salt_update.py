@@ -2,7 +2,6 @@ import os
 import random
 from convert import BinaryConverter
 from cutter import ChunkCutter
-from input import InputOption
 from inout import InputOutput
 
 class SHA256(BinaryConverter, ChunkCutter):
