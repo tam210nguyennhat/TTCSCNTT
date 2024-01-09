@@ -136,7 +136,7 @@ password = input_output.get_password()
 salt = input_output.get_salt()
 
 # In mật khẩu ban đầu
-input_output.print_initial_password(password)
+input_output.print_password(password)
 
 # In mật khẩu sau khi chuyển sang nhị phân
 input_output.print_binary_password(password)
