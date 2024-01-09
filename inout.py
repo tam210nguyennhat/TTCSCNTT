@@ -34,7 +34,7 @@ class InputOutput:
                 return file.read()
             
     @staticmethod
-    def print_initial_password(password):
+    def print_password(password):
         print("Mật khẩu ban đầu:", password)
 
     @staticmethod
